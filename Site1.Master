@@ -1,0 +1,23 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Macademia.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <script src="bootstrap-3.3.7-dist/JQ.js"></script>
+                <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+                <link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" />
+
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
